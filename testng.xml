@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="PageObjectModelcodingAssignment12TestSuite" parallel="classes" thread-count="2">
+    <test name="LoginPageandHomepage" >
+        <classes>
+            <class name="RotingPageTest2.AbotPageTest"></class>
+            <class name="RotingPageTest2.HomePageTest"></class>
+            <class name="RotingPageTest2.ContactPageTest"></class>
+            <class name="RotingPageTest2.HeadersectionTest"></class>
+            <class name="MyProjectPageTest2.DiwaliPageTest"></class>
+            <class name="MyProjectPageTest2.FoodPageTest"></class>
+            <class name="MyProjectPageTest2.HomePageTest"></class>
+            <class name="MyProjectPageTest2.NewsPageTest"></class>
+            <class name="MyProjectPageTest2.TechnilogyPageTest"></class>
+            <class name="MeetUpAppPageTest2.WelcomePageTest1"></class>
+            <class name="MeetUpAppPageTest2.RegistartionPageTest1"></class>
+
+        </classes>
+    </test>
+</suite>
